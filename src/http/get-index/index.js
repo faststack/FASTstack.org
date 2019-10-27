@@ -1,28 +1,36 @@
-// Add simple, fast, scalable persistence: https://docs.begin.com/en/data/begin-data/
-// let data = require('@begin/data')
-
-// Add secure sessions, middleware, and more: https://docs.begin.com/en/functions/http/
-// let arc = require('@architect/functions')
-
-// TODO: modify the body object!
 let body = `
 <!doctype html>
 <html lang=en>
   <head>
     <meta charset=utf-8>
-    <title>Hi!</title>
+    <title>FASTstack</title>
     <link rel="stylesheet" href="https://static.begin.app/starter/default.css">
     <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" rel="icon" type="image/x-icon">
   </head>
   <body>
 
     <h1 class="center-text">
-      <!-- ↓ Change "Hello world!" to something else and head on back to Begin! -->
-      Hello world!
+      <a href="https://twitter.com/brianleroux/status/1187832346575282177" class="link">FASTstack</a>
     </h1>
 
-    <p class="center-text">
-      Your <a href="https://begin.com" class="link" target="_blank">Begin</a> app is ready to go!
+    <h2 class="center-text">
+      Functions
+    </h2>
+
+    <h2 class="center-text">
+      APIs
+    </h2>
+
+    <h2 class="center-text">
+      Storage
+    </h2>
+
+    <h2 class="center-text">
+      Testability
+    </h2>
+
+    <p class="center-text" style="margin-top: 100px">
+      Help us build the <a href="https://github.com/faststack/FASTstack.org" class="link">FASTstack.org site on GitHub</a>
     </p>
 
   </body>
@@ -35,36 +43,3 @@ exports.handler = async function http(req) {
     body
   }
 }
-
-// Example responses
-
-/* Forward requester to a new path
-exports.handler = async function http (req) {
-  return {
-    statusCode: 302,
-    headers: {'location': '/about'}
-  }
-}
-*/
-
-/* Respond with successful resource creation, CORS enabled
-let arc = require('@architect/functions')
-exports.handler = arc.http.async (http)
-async function http (req) {
-  return {
-    statusCode: 201,
-    headers: {'content-type': 'application/json; charset=utf8'},
-    body: JSON.stringify({ok: true}),
-    cors: true,
-  }
-}
-*/
-
-/* Deliver client-side JS
-exports.handler = async function http (req) {
-  return {
-    headers: {'content-type': 'text/javascript; charset=utf8'},
-    body: 'console.log("Hello world!")',
-  }
-}
-*/

@@ -1,4 +1,4 @@
-# Begin basic Hello World! app
+# FASTstack
 
 
 ## Getting started
