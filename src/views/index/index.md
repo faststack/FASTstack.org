@@ -8,12 +8,14 @@ The next generation of sites, apps, and APIs are being built by unlocking an ent
 
 @@hero
 **Unlock the superpowers of the open web.**
-Build secure, fast, sophisticated sites and applications with **Functions**, **APIs**, **Storage**, and **Testability**.
+
+@@subhead
+Build secure, fast, sophisticated sites and applications with<br/> **Functions**, **APIs**, **Storage**, and **Testability**.
 
 
 @@intro
 Static sites were only the beginning. The FASTstack unlocks an entirely new set of capabilities for developers, while staying true to the hallmarks of the modern web: maintainability, scalability, and a great developer experience.
-
+<br/>
 FASTstack apps have all the speed and cost advantages of statically-rendered sites, but enable the full power of the world's most ubiquitous platform–without the immense complexity.
 
 

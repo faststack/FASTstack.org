@@ -1,15 +1,16 @@
 let parser = require('@architect/shared/parser')
 let fs = require('fs')
-let {join} = require('path')
+let { join } = require('path')
 let read = file => fs.readFileSync(file).toString()
 
-module.exports = function template () {
+module.exports = function template() {
   let raw = read(join(__dirname, `index.md`))
   let parsed = parser(raw)
   let {
     title,
     description,
     hero,
+    subhead,
     intro,
     whatIsFASTstackHeader,
     whatIsFASTstack,
@@ -19,53 +20,219 @@ module.exports = function template () {
     testabilityHeader, testability,
     getStartedHeader,
     getStarted,
-    message,
+    message
   } = parsed
   let body = `
-      <h1 class="center-text">
+  <header
+    class="
+      padding-top3
+      padding-right1
+      padding-right3-desktop
+      padding-bottom5
+      padding-bottom8-desktop
+      padding-left1
+      padding-left3-desktop
+      background-image-linear-gradient1
+      clip-path-slant
+      clip-path-slant-desktop
+    "
+  >
+    <div
+      class="
+        max-width
+        margin-auto
+        color-light
+      "
+    >
+      <h1
+        class="
+          margin-bottom-7
+          font-size4
+          font-size6-desktop
+          font-weight-black
+          font-style-italic
+          text-shadow-drop
+          text-shadow-drop-desktop
+          sans-serif
+        "
+      >
         FASTstack
       </h1>
-      <h1 style="font-weight: normal">
+      <h2
+        class="
+          margin-bottom-1
+          font-size1
+          text-shadow-drop
+          sans-serif
+        "
+      >
         ${hero}
-      </h1>
-
-      ${intro}
-
-      <h3>
-        ${whatIsFASTstackHeader}
-      </h3>
-
-      ${whatIsFASTstack}
-
-      <h2 class="center-text">
-        ${functionsHeader}
       </h2>
-      ${functions}
+      <h4
+        class="
+          font-size0
+          font-weight-medium
+          sans-serif
+        "
+      >
+        ${subhead}
+      </h4>
+    </div>
+  </header>
 
-      <h2 class="center-text">
-        ${APIsHeader}
-      </h2>
-      ${APIs}
+  <section
+    class="
+      padding1
+      font-size0
+    "
+  >
+    <div
+      class="
+        max-width
+        margin-auto
+      "
+    >
+      <div
+        class="
+          margin-bottom3
+          font-weight-medium
+        "
+      >
+        ${intro}
+      </div>
 
-      <h2 class="center-text">
-        ${storageHeader}
-      </h2>
-      ${storage}
+      <div
+        class="
+          margin-bottom3
+        "
+      >
+        <h3
+          class="
+            font-size2
+            margin-bottom-1
+            sans-serif
+          "
+        >
+          ${whatIsFASTstackHeader}
+        </h3>
 
-      <h2 class="center-text">
-        ${testabilityHeader}
-      </h2>
-      ${testability}
+        ${whatIsFASTstack}
+      </div>
 
-      <h3>
-        ${getStartedHeader}
-      </h3>
+      <div
+        class="
+          margin-bottom2
+        "
+      >
+        <h2
+          class="
+            margin-bottom-1
+            font-size3
+            font-style-italic
+            color-dark
+            sans-serif
+          "
+        >
+          ${functionsHeader}
+        </h2>
+        ${functions}
+      </div>
 
+      <div
+        class="
+          margin-bottom2
+        "
+      >
+        <h2
+          class="
+            font-size3
+            font-style-italic
+            color-dark
+            sans-serif
+          "
+        >
+          ${APIsHeader}
+        </h2>
+        ${APIs}
+      </div>
+
+      <div
+        class="
+          margin-bottom2
+        "
+      >
+        <h2
+          class="
+            margin-bottom-1
+            font-size3
+            font-style-italic
+            color-dark
+            sans-serif
+          "
+        >
+          ${storageHeader}
+        </h2>
+        ${storage}
+      </div>
+
+      <div
+        class="
+          margin-bottom2
+        "
+      >
+        <h2
+          class="
+            margin-bottom-1
+            font-size3
+            font-style-italic
+            color-dark
+            sans-serif
+          "
+        >
+          ${testabilityHeader}
+        </h2>
+        ${testability}
+      </div>
+
+  </section>
+  <footer
+    class="
+      padding-top6
+      padding-right1
+      padding-bottom3
+      padding-left1
+      background-dark
+      color-light
+      clip-path-slant1
+    "
+  >
+   <div
+    class="
+      max-width
+      margin-auto
+    "
+   >
+    <h3
+      class="
+        font-size1
+        margin-bottom0
+        sans-serif
+      "
+    >
+      ${getStartedHeader}
+    </h3>
+
+    <div
+      class="
+        margin-bottom2
+      "
+    >
       ${getStarted}
+    </div>
 
-      <p class="center-text" style="margin-top: 100px">
-        ${message}
-      </p>
+      ${message}
+   </div>
+  </footer>
   `
-  return {title, description, body}
+  return { title, description, body }
 }
