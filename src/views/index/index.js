@@ -108,7 +108,8 @@ module.exports = function template() {
       >
         <h3
           class="
-            font-size2
+            font-size1
+            font-size2-desktop
             margin-bottom-1
             sans-serif
           "
@@ -126,8 +127,10 @@ module.exports = function template() {
       >
         <h2
           class="
-            margin-bottom-1
-            font-size3
+            margin-bottom-4
+            margin-bottom-2-desktop
+            font-size2
+            font-size3-desktop
             font-style-italic
             color-dark
             sans-serif
@@ -145,7 +148,10 @@ module.exports = function template() {
       >
         <h2
           class="
-            font-size3
+            margin-bottom-4
+            margin-bottom-2-desktop
+            font-size2
+            font-size3-desktop
             font-style-italic
             color-dark
             sans-serif
@@ -163,8 +169,10 @@ module.exports = function template() {
       >
         <h2
           class="
-            margin-bottom-1
-            font-size3
+            margin-bottom-4
+            margin-bottom-2-desktop
+            font-size2
+            font-size3-desktop
             font-style-italic
             color-dark
             sans-serif
@@ -182,8 +190,10 @@ module.exports = function template() {
       >
         <h2
           class="
-            margin-bottom-1
-            font-size3
+            margin-bottom-4
+            margin-bottom-2-desktop
+            font-size2
+            font-size3-desktop
             font-style-italic
             color-dark
             sans-serif
@@ -197,7 +207,7 @@ module.exports = function template() {
   </section>
   <footer
     class="
-      padding-top6
+      padding-top8
       padding-right1
       padding-bottom3
       padding-left1
@@ -214,8 +224,9 @@ module.exports = function template() {
    >
     <h3
       class="
-        font-size1
         margin-bottom0
+        font-size0
+        font-style-italic
         sans-serif
       "
     >

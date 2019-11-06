@@ -45,7 +45,7 @@ body,
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 .clip-path-slant1 {
-  clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
+  clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0 100%);
 }
 .clip-path-slant2 {
   clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0 100%);
