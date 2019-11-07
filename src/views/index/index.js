@@ -25,7 +25,8 @@ module.exports = function template() {
   let body = `
   <header
     class="
-      padding-top3
+      padding-top2
+      padding-top3-desktop
       padding-right1
       padding-right3-desktop
       padding-bottom5
@@ -82,6 +83,83 @@ module.exports = function template() {
 
   <section
     class="
+      padding-top3
+      padding-right1
+      padding-bottom1
+      padding-left1
+      font-size0
+      font-size1-desktop
+    "
+  >
+    <div
+      class="
+        max-width
+        margin-auto
+      "
+    >
+      <div
+        class="
+          margin-bottom3
+          font-weight-extra-light
+        "
+      >
+        ${intro}
+      </div>
+    </div>
+  </section>
+
+  <section
+    class="
+      position-relative
+      background-color-white
+      padding1
+    "
+  >
+    <div
+      class="
+        max-width
+        margin-auto
+      "
+    >
+      <div
+        class="
+          margin-bottom3
+          font-size0
+          font-size1-desktop
+          color-black
+        "
+      >
+        <h3
+          class="
+            font-size2
+            font-size3-desktop
+            margin-bottom-1
+            font-style-italic
+            sans-serif
+          "
+        >
+          ${whatIsFASTstackHeader}
+        </h3>
+
+        ${whatIsFASTstack}
+      </div>
+    </div>
+    <div
+      class="
+        position-absolute
+        top0
+        right0
+        bottom0
+        left0
+        background-image-linear-gradient1
+        mix-blend-mode-screen
+      "
+    >
+    </div>
+  </section>
+
+  <section
+    class="
       padding1
       font-size0
     "
@@ -94,122 +172,203 @@ module.exports = function template() {
     >
       <div
         class="
-          margin-bottom3
-          font-weight-medium
-        "
-      >
-        ${intro}
-      </div>
-
-      <div
-        class="
-          margin-bottom3
-        "
-      >
-        <h3
-          class="
-            font-size1
-            font-size2-desktop
-            margin-bottom-1
-            sans-serif
-          "
-        >
-          ${whatIsFASTstackHeader}
-        </h3>
-
-        ${whatIsFASTstack}
-      </div>
-
-      <div
-        class="
+          display-flex
+          align-items-center
           margin-bottom2
         "
       >
-        <h2
+        <div
           class="
-            margin-bottom-4
-            margin-bottom-2-desktop
-            font-size2
-            font-size3-desktop
-            font-style-italic
-            color-dark
-            sans-serif
+            position-relative
+            background-color-white
           "
         >
-          ${functionsHeader}
-        </h2>
-        ${functions}
+          <h1
+            class="
+              margin-right4
+              font-size5
+              font-size7-desktop
+              font-style-italic
+              color-black
+            "
+          >
+            F
+          </h1>
+        </div>
+        <div
+          class="
+            font-weight-medium
+          "
+        >
+          <h2
+            class="
+              margin-bottom-4
+              margin-bottom-2-desktop
+              font-size1
+              font-size2-desktop
+              font-style-italic
+              color-dark
+              sans-serif
+              font-weight-thin
+            "
+          >
+            ${functionsHeader}
+          </h2>
+          ${functions}
+        </div>
       </div>
 
       <div
         class="
+          display-flex
+          align-items-center
           margin-bottom2
         "
       >
-        <h2
+        <div
           class="
-            margin-bottom-4
-            margin-bottom-2-desktop
-            font-size2
-            font-size3-desktop
-            font-style-italic
-            color-dark
-            sans-serif
+            position-relative
+            background-color-white
           "
         >
-          ${APIsHeader}
-        </h2>
-        ${APIs}
+          <h1
+            class="
+              margin-right4
+              font-size5
+              font-size7-desktop
+              font-style-italic
+              color-black
+            "
+          >
+            A
+          </h1>
+        </div>
+        <div
+          class="
+            font-weight-medium
+          "
+        >
+          <h2
+            class="
+              margin-bottom-4
+              margin-bottom-2-desktop
+              font-size1
+              font-size2-desktop
+              font-style-italic
+              color-dark
+              sans-serif
+              font-weight-thin
+            "
+          >
+            ${APIsHeader}
+          </h2>
+          ${APIs}
+        </div>
       </div>
 
       <div
         class="
+          display-flex
+          align-items-center
           margin-bottom2
         "
       >
-        <h2
+        <div
           class="
-            margin-bottom-4
-            margin-bottom-2-desktop
-            font-size2
-            font-size3-desktop
-            font-style-italic
-            color-dark
-            sans-serif
+            position-relative
+            background-color-white
           "
         >
-          ${storageHeader}
-        </h2>
-        ${storage}
+          <h1
+            class="
+              margin-right4
+              font-size5
+              font-size7-desktop
+              font-style-italic
+              color-black
+            "
+          >
+            S
+          </h1>
+        </div>
+        <div
+          class="
+            font-weight-medium
+          "
+        >
+          <h2
+            class="
+              margin-bottom-4
+              margin-bottom-2-desktop
+              font-size1
+              font-size2-desktop
+              font-style-italic
+              color-dark
+              sans-serif
+              font-weight-thin
+            "
+          >
+            ${storageHeader}
+          </h2>
+          ${storage}
+        </div>
       </div>
 
       <div
         class="
+          display-flex
+          align-items-center
           margin-bottom2
         "
       >
-        <h2
+        <div
           class="
-            margin-bottom-4
-            margin-bottom-2-desktop
-            font-size2
-            font-size3-desktop
-            font-style-italic
-            color-dark
-            sans-serif
+            position-relative
+            background-color-white
           "
         >
-          ${testabilityHeader}
-        </h2>
-        ${testability}
+          <h1
+            class="
+              margin-right4
+              font-size5
+              font-size7-desktop
+              font-style-italic
+              color-black
+            "
+          >
+            T
+          </h1>
+        </div>
+        <div
+          class="
+            font-weight-medium
+          "
+        >
+          <h2
+            class="
+              margin-bottom-4
+              margin-bottom-2-desktop
+              font-size1
+              font-size2-desktop
+              font-style-italic
+              color-dark
+              sans-serif
+              font-weight-thin
+            "
+          >
+            ${testabilityHeader}
+          </h2>
+          ${testability}
+        </div>
       </div>
+    </div>
 
   </section>
   <footer
     class="
       padding-top8
       padding-right1
-      padding-bottom3
+      padding-bottom6
       padding-left1
       background-dark
       color-light

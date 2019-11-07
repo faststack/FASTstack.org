@@ -307,9 +307,10 @@ body,
 /* COLOR */
 .color-light{color:var(--light)}
 .color-dark{color:var(--dark)}
+.color-black{color:black}
+.color-white{color:white}
 .color-accent{color:var(--accent)}
 /* CUSTOM */
-.drop-cap,
 .mix-blend-mode-screen {
   mix-blend-mode: screen;
 }
