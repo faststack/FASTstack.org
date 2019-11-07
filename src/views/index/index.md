@@ -1,21 +1,21 @@
-@@text title
+@@title
 FASTstack | Functions, APIs, Storage, Testability
 
 
-@@text description
+@@description
 The next generation of sites, apps, and APIs are being built by unlocking an entirely new set of capabilities for developers that showcase the superpowers of web apps.
 
 
-@@hero
+@@md hero
 **Unlock the superpowers of the open web.**
 
-@@subhead
+@@md subhead
 Build secure, fast, sophisticated sites and applications with<br/> **Functions**, **APIs**, **Storage**, and **Testability**.
 
 
 @@intro
 Static sites were only the beginning. The FASTstack unlocks an entirely new set of capabilities for developers, while staying true to the hallmarks of the modern web: maintainability, scalability, and a great developer experience.
-<br/>
+<br/><br/>
 FASTstack apps have all the speed and cost advantages of statically-rendered sites, but enable the full power of the world's most ubiquitous platform–without the immense complexity.
 
 
@@ -24,7 +24,7 @@ What the FASTstack is (and isn't)
 
 @@whatIsFASTstack
 The FASTstack is a technology and language-agnostic approach to building modern web apps, sites, and APIs. It empowers individuals and teams of all sizes to rapidly prototype, ship, and scale their apps in a secure, reproducible way.
-
+<br/><br/>
 The FASTstack also provides a clear path to growing an app's capabilities. Delivering customers even the most sophisticated functionality should never come at the cost of a total rewrite and major architecture change.
 
 
@@ -59,8 +59,8 @@ Rapidly prototype and validate in a local/offline development environment, and e
 @@getStartedHeader
 Start building with the FASTstack
 
-@@getStarted
+@@md getStarted
 - [Build your first FASTstack app](/get-started)
 
-@@message
+@@md message
 Help us build the [FASTstack.org site on GitHub](https://github.com/faststack/FASTstack.org)

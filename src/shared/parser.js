@@ -41,14 +41,13 @@ module.exports = function contentParser (input) {
     let id = parts.shift()
     id = id.replace('@@ ', '').replace('@@', '').split(' ')
     // Remove text directive
-    let isText = id[0] && id[0] === 'text' || id[0] === 'txt'
-    if (id.length > 1 && isText) id.shift()
+    let isMd = id[0] && id[0] === 'markdown' || id[0] === 'md'
+    if (id.length > 1 && isMd) id.shift()
     id = id.join('-')
     if (!id) throw Error('Content needs ID')
     // Maybe mutate content
     let content = parts.join(`\n`).trim()
-    // if (type === '@md' || type === '@markdown') content = md(content)
-    obj[id] = isText ? content : md(content)
+    obj[id] = isMd ? md(content) : content
   }
   let test = /^@@.*?(?=^@@|($(?![\r\n])))/gims
   content.replace(test, parser)

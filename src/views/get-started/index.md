@@ -1,8 +1,8 @@
-@@text title
+@@title
 Start building with the FASTstack | FASTstack.org
 
 
-@@text description
+@@description
 Start building your first FASTstack app.
 
 
