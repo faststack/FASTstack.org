@@ -83,6 +83,15 @@ body,
 .background-dark {
   background-color: var(--dark);
 }
+.border-solid {
+  border-style: solid;
+}
+.border-color-accent {
+  border-color: var(--accent);
+}
+.border-width1 {
+  border-width: 0.25rem;
+}
 /* SIZES */
 .font-size8{font-size:9.969rem;}
 .font-size7{font-size:7.478rem;}
@@ -373,6 +382,8 @@ body,
 .text-shadow-drop-desktop {
   text-shadow: -2px 2px 0px var(--accent);
 }
+
+.border-width1{border-width:0.2rem;}
 /* DISPLAY */
 .display-block-desktop{display:block}
 /* SIZES */
@@ -485,5 +496,5 @@ body,
 .padding-top-8-desktop{padding-top:0.1rem;}
 .padding-right-8-desktop{padding-right:0.1rem;}
 .padding-bottom-8-desktop{padding-bottom:0.1rem;}
-.padding-left-8-desktop{padding-left:0.1refont-size-8-desktop{font-size:0.1rem;}
+.padding-left-8-desktop{padding-left:0.1rem;}
 }

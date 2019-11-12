@@ -124,9 +124,17 @@ module.exports = function template() {
       <div
         class="
           margin-bottom3
+          padding-top2
+          padding-right3
+          padding-bottom3
+          padding-left2
           font-size0
           font-size1-desktop
           color-black
+          border-solid
+          border-color-accent
+          border-width1
+          border-width2-desktop
         "
       >
         <h3

@@ -20,7 +20,7 @@ FASTstack apps have all the speed and cost advantages of statically-rendered sit
 
 
 @@whatIsFASTstackHeader
-What the FASTstack is (and isn't)
+What the FASTstack is
 
 @@whatIsFASTstack
 The FASTstack is a technology and language-agnostic approach to building modern web apps, sites, and APIs. It empowers individuals and teams of all sizes to rapidly prototype, ship, and scale their apps in a secure, reproducible way.
