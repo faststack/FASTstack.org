@@ -63,6 +63,7 @@ module.exports = function template() {
         class="
           margin-bottom-1
           font-size1
+          font-size2-desktop
           text-shadow-drop
           sans-serif
         "
@@ -72,6 +73,7 @@ module.exports = function template() {
       <h4
         class="
           font-size0
+          font-size1-desktop
           font-weight-medium
           sans-serif
         "
@@ -183,13 +185,14 @@ module.exports = function template() {
         >
           <h1
             class="
-              margin-right4
+              margin-right3
               font-size5
               font-size7-desktop
               font-style-italic
               color-black
               display-none
               display-block-desktop
+              mw-letter
             "
           >
             F
@@ -237,11 +240,12 @@ module.exports = function template() {
             class="
               display-none
               display-block-desktop
-              margin-right4
+              margin-right3
               font-size5
               font-size7-desktop
               font-style-italic
               color-black
+              mw-letter
             "
           >
             A
@@ -289,11 +293,12 @@ module.exports = function template() {
             class="
               display-none
               display-block-desktop
-              margin-right4
+              margin-right3
               font-size5
               font-size7-desktop
               font-style-italic
               color-black
+              mw-letter
             "
           >
             S
@@ -341,11 +346,12 @@ module.exports = function template() {
             class="
               display-none
               display-block-desktop
-              margin-right4
+              margin-right3
               font-size5
               font-size7-desktop
               font-style-italic
               color-black
+              mw-letter
             "
           >
             T

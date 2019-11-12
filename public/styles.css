@@ -353,6 +353,9 @@ body,
 .max-width {
   max-width: 50rem;
 }
+.mw-letter {
+  min-width: 5.55rem;
+}
 
 .margin-auto {
   margin: 0 auto;

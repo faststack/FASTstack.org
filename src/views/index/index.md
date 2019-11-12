@@ -23,9 +23,9 @@ FASTstack apps have all the speed and cost advantages of statically-rendered sit
 What the FASTstack is
 
 @@whatIsFASTstack
-The FASTstack is a technology and language-agnostic approach to building modern web apps, sites, and APIs. It empowers individuals and teams of all sizes to rapidly prototype, ship, and scale their apps in a secure, reproducible way.
+The FASTstack is a technology and language-agnostic approach to building modern, full-featured web apps, sites, and APIs. It empowers individuals and teams of all sizes to rapidly prototype, ship, and scale their apps in a secure, reproducible way.
 <br/><br/>
-The FASTstack also provides a clear path to growing an app's capabilities. Delivering customers even the most sophisticated functionality should never come at the cost of a total rewrite and major architecture change.
+The FASTstack also provides a clear path to growing an app's capabilities. Delivering the most sophisticated functionality to your customers should never come at the cost of a total rewrite and major architecture change.
 
 
 @@functionsHeader
