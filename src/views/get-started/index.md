@@ -16,4 +16,4 @@ Start building with the FASTstack
 - [Build your first FASTstack app](/get-started)
 
 @@md message
-Help us build the [FASTstack.org site on GitHub](https://github.com/faststack/FASTstack.org)
+Help us build the <a class="link" href="https://github.com/faststack/FASTstack.org">FASTstack.org site on GitHub</a>

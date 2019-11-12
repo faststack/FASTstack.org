@@ -10,8 +10,6 @@ module.exports = function template () {
     title,
     description,
     intro,
-    getStartedHeader,
-    getStarted,
     message
   } = parsed
   let body = `
@@ -84,10 +82,10 @@ module.exports = function template () {
   </section>
   <footer
     class="
-      padding-top8
+      padding-top4
       padding-right1
       padding-right3-desktop
-      padding-bottom6
+      padding-bottom3
       padding-left1
       padding-left3-desktop
       text-align-end
@@ -102,24 +100,6 @@ module.exports = function template () {
       margin-auto
     "
    >
-    <h3
-      class="
-        font-size0
-        font-style-italic
-        sans-serif
-      "
-    >
-      ${getStartedHeader}
-    </h3>
-
-    <div
-      class="
-        margin-bottom4
-      "
-    >
-      ${getStarted}
-    </div>
-
     ${message}
    </div>
   </footer>

@@ -51,8 +51,7 @@ ul {
 .link {
   color: var(--accent);
 }
-.link:active,
-.link:visited {
+.link:active {
   color: var(--contrast);
 }
 .text-decoration-none {text-decoration:none;}
