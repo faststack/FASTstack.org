@@ -62,6 +62,7 @@ module.exports = function template() {
           class="
             color-white
             color-white:hover
+            color-white:visited
           "
           style="text-decoration: none;"
         >

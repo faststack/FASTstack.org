@@ -344,6 +344,7 @@ body,
 .color-dark{color:var(--dark)}
 .color-black{color:black}
 .color-white:hover,
+.color-white:visited,
 .color-white{color:white}
 .color-accent{color:var(--accent)}
 .color-contrast{color:var(--contrast)}
