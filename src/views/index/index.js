@@ -407,6 +407,8 @@ module.exports = function template() {
           background-image-linear-gradient1
           text-decoration-none
           depress
+          font-size0
+          font-size1-desktop
           font-weight-bold
         "
         href="${getStartedLink}"
