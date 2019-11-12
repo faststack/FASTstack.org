@@ -42,6 +42,11 @@ body {
 ul {
   list-style: none;
 }
+a {
+  text-underline-offset: 0.5rem;
+  text-decoration-style: dotted;
+  line-height: 2;
+}
 a:hover,
 a {
   color: var(--accent);
@@ -115,6 +120,12 @@ body,
 .font-weight-black{font-weight:900}
 /* STYLE */
 .font-style-italic{font-style:italic}
+.text-align-start {
+  text-align: start;
+}
+.text-align-end {
+  text-align: end;
+}
 /* POSITION */
 .position-absolute{position:absolute}
 .position-relative{position:relative}
@@ -362,6 +373,8 @@ body,
 .text-shadow-drop-desktop {
   text-shadow: -2px 2px 0px var(--accent);
 }
+/* DISPLAY */
+.display-block-desktop{display:block}
 /* SIZES */
 .font-size8-desktop{font-size:9.969rem;}
 .font-size7-desktop{font-size:7.478rem;}
@@ -379,6 +392,9 @@ body,
 .font-size-5-desktop{font-size:0.238rem;}
 .font-size-6-desktop{font-size:0.178rem;}
 .font-size-7-desktop{font-size:0.134rem;}
+/* WEIGHT */
+.font-weight-thin-desktop{font-weight:100}
+.font-weight-medium-desktop{font-weight:500}
 ./* PADDING */
 .padding-none-desktop{padding:0;}
 .padding-top-none-desktop{padding-top:0;}

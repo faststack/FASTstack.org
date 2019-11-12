@@ -180,6 +180,8 @@ module.exports = function template() {
               font-size7-desktop
               font-style-italic
               color-black
+              display-none
+              display-block-desktop
             "
           >
             F
@@ -187,7 +189,8 @@ module.exports = function template() {
         </div>
         <div
           class="
-            font-weight-medium
+            font-weight-book
+            font-weight-medium-desktop
           "
         >
           <h2
@@ -199,7 +202,8 @@ module.exports = function template() {
               font-style-italic
               color-dark
               sans-serif
-              font-weight-thin
+              font-weight-medium
+              font-weight-thin-desktop
             "
           >
             ${functionsHeader}
@@ -223,6 +227,8 @@ module.exports = function template() {
         >
           <h1
             class="
+              display-none
+              display-block-desktop
               margin-right4
               font-size5
               font-size7-desktop
@@ -235,7 +241,8 @@ module.exports = function template() {
         </div>
         <div
           class="
-            font-weight-medium
+            font-weight-book
+            font-weight-medium-desktop
           "
         >
           <h2
@@ -247,7 +254,8 @@ module.exports = function template() {
               font-style-italic
               color-dark
               sans-serif
-              font-weight-thin
+              font-weight-medium
+              font-weight-thin-desktop
             "
           >
             ${APIsHeader}
@@ -271,6 +279,8 @@ module.exports = function template() {
         >
           <h1
             class="
+              display-none
+              display-block-desktop
               margin-right4
               font-size5
               font-size7-desktop
@@ -283,7 +293,8 @@ module.exports = function template() {
         </div>
         <div
           class="
-            font-weight-medium
+            font-weight-book
+            font-weight-medium-desktop
           "
         >
           <h2
@@ -295,7 +306,8 @@ module.exports = function template() {
               font-style-italic
               color-dark
               sans-serif
-              font-weight-thin
+              font-weight-medium
+              font-weight-thin-desktop
             "
           >
             ${storageHeader}
@@ -319,6 +331,8 @@ module.exports = function template() {
         >
           <h1
             class="
+              display-none
+              display-block-desktop
               margin-right4
               font-size5
               font-size7-desktop
@@ -331,7 +345,8 @@ module.exports = function template() {
         </div>
         <div
           class="
-            font-weight-medium
+            font-weight-book
+            font-weight-medium-desktop
           "
         >
           <h2
@@ -343,7 +358,8 @@ module.exports = function template() {
               font-style-italic
               color-dark
               sans-serif
-              font-weight-thin
+              font-weight-medium
+              font-weight-thin-desktop
             "
           >
             ${testabilityHeader}
@@ -358,8 +374,11 @@ module.exports = function template() {
     class="
       padding-top8
       padding-right1
+      padding-right3-desktop
       padding-bottom6
       padding-left1
+      padding-left3-desktop
+      text-align-end
       background-dark
       color-light
       clip-path-slant1
@@ -373,7 +392,6 @@ module.exports = function template() {
    >
     <h3
       class="
-        margin-bottom0
         font-size0
         font-style-italic
         sans-serif
@@ -384,13 +402,13 @@ module.exports = function template() {
 
     <div
       class="
-        margin-bottom2
+        margin-bottom4
       "
     >
       ${getStarted}
     </div>
 
-      ${message}
+    ${message}
    </div>
   </footer>
   `
