@@ -12,7 +12,7 @@ module.exports = function template () {
     intro,
     message
   } = parsed
-  let body = `
+  let body = /*html*/`
   <header
     class="
       padding-top2
@@ -47,7 +47,16 @@ module.exports = function template () {
           sans-serif
         "
       >
-        FASTstack
+        <a
+          href="/"
+          class="
+            color-white
+            color-white:hover
+          "
+          style="text-decoration: none;"
+        >
+          FASTstack
+        </a>
       </h1>
       <h2
         class="
