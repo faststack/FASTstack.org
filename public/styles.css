@@ -24,6 +24,7 @@ input {font-family: inherit;}
   --dark: #222222;
   --accent: #FF092C;
   --strike: #FFFFFF;
+  --contrast: #B3001B;
 }
 
 html {
@@ -38,9 +39,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: var(--dark);
 }
+ul {
+  list-style: none;
+}
+a:hover,
+a {
+  color: var(--accent);
+}
+a:active,
+a:visited {
+  color: var(--contrast);
+}
+
 body,
 .sans-serif{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;}
-.serif{ font-family: georgia, times, serif; }
 .clip-path-slant {
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
@@ -310,6 +322,7 @@ body,
 .color-black{color:black}
 .color-white{color:white}
 .color-accent{color:var(--accent)}
+.color-contrast{color:var(--contrast)}
 /* CUSTOM */
 .mix-blend-mode-screen {
   mix-blend-mode: screen;

@@ -136,6 +136,7 @@ module.exports = function template() {
             margin-bottom-1
             font-style-italic
             sans-serif
+            color-contrast
           "
         >
           ${whatIsFASTstackHeader}
@@ -144,23 +145,12 @@ module.exports = function template() {
         ${whatIsFASTstack}
       </div>
     </div>
-    <div
-      class="
-        position-absolute
-        top0
-        right0
-        bottom0
-        left0
-        background-image-linear-gradient1
-        mix-blend-mode-screen
-      "
-    >
-    </div>
   </section>
 
   <section
     class="
       padding1
+      margin-bottom4
       font-size0
     "
   >
