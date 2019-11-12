@@ -59,8 +59,11 @@ Rapidly prototype and validate in a local/offline development environment, and e
 @@getStartedHeader
 Start building with the FASTstack
 
-@@md getStarted
-- [Build your first FASTstack app](/get-started)
+@@getStarted
+Build your first FASTstack app</a>
+
+@@getStartedLink
+/get-started
 
 @@md message
-Help us build the [FASTstack.org site on GitHub](https://github.com/faststack/FASTstack.org)
+Help us build the <a class="link" href="https://github.com/faststack/FASTstack.org">FASTstack.org site on GitHub</a>

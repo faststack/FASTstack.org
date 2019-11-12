@@ -18,8 +18,8 @@ module.exports = function template() {
     APIsHeader, APIs,
     storageHeader, storage,
     testabilityHeader, testability,
-    getStartedHeader,
     getStarted,
+    getStartedLink,
     message
   } = parsed
   let body = `
@@ -119,7 +119,7 @@ module.exports = function template() {
   >
     <div
       class="
-        max-width
+        max-width-cta
         margin-auto
       "
     >
@@ -146,14 +146,48 @@ module.exports = function template() {
             margin-bottom-1
             font-style-italic
             sans-serif
-            color-contrast
+            color-dark
           "
         >
           ${whatIsFASTstackHeader}
         </h3>
 
-        ${whatIsFASTstack}
+        <div
+          class="
+            margin-bottom3
+          "
+        >
+          ${whatIsFASTstack}
+        </div>
+
+        <div
+          class="
+            text-align-center
+            text-align-end-desktop
+          "
+        >
+          <a
+            class="
+              display-inline-block
+              padding-top0
+              padding-left2
+              padding-bottom0
+              padding-right2
+              color-light
+              color-white-hover
+              border-radius-pill
+              background-image-linear-gradient1
+              text-decoration-none
+              depress
+              font-weight-bold
+            "
+            href="${getStartedLink}"
+          >
+            ${getStarted}
+          </a>
+        </div>
       </div>
+
     </div>
   </section>
 
@@ -386,10 +420,10 @@ module.exports = function template() {
   </section>
   <footer
     class="
-      padding-top8
+      padding-top4
       padding-right1
       padding-right3-desktop
-      padding-bottom6
+      padding-bottom3
       padding-left1
       padding-left3-desktop
       text-align-end
@@ -404,24 +438,6 @@ module.exports = function template() {
       margin-auto
     "
    >
-    <h3
-      class="
-        font-size0
-        font-style-italic
-        sans-serif
-      "
-    >
-      ${getStartedHeader}
-    </h3>
-
-    <div
-      class="
-        margin-bottom4
-      "
-    >
-      ${getStarted}
-    </div>
-
     ${message}
    </div>
   </footer>

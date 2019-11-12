@@ -42,20 +42,20 @@ body {
 ul {
   list-style: none;
 }
-a {
+.link {
   text-underline-offset: 0.5rem;
   text-decoration-style: dotted;
   line-height: 2;
 }
-a:hover,
-a {
+.link:hover,
+.link {
   color: var(--accent);
 }
-a:active,
-a:visited {
+.link:active,
+.link:visited {
   color: var(--contrast);
 }
-
+.text-decoration-none {text-decoration:none;}
 body,
 .sans-serif{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;}
 .clip-path-slant {
@@ -92,6 +92,7 @@ body,
 .border-width1 {
   border-width: 0.25rem;
 }
+.border-radius-pill {border-radius:9999rem;}
 /* SIZES */
 .font-size8{font-size:9.969rem;}
 .font-size7{font-size:7.478rem;}
@@ -131,6 +132,9 @@ body,
 .font-style-italic{font-style:italic}
 .text-align-start {
   text-align: start;
+}
+.text-align-center {
+  text-align: center;
 }
 .text-align-end {
   text-align: end;
@@ -340,9 +344,11 @@ body,
 .color-light{color:var(--light)}
 .color-dark{color:var(--dark)}
 .color-black{color:black}
+.color-white:hover,
 .color-white{color:white}
 .color-accent{color:var(--accent)}
 .color-contrast{color:var(--contrast)}
+.depress:active{transform:translateY(1px)}
 /* CUSTOM */
 .mix-blend-mode-screen {
   mix-blend-mode: screen;
@@ -352,6 +358,9 @@ body,
 }
 .max-width {
   max-width: 50rem;
+}
+.max-width-cta {
+  max-width: 53.556rem;
 }
 .mw-letter {
   min-width: 5.55rem;
@@ -385,7 +394,7 @@ body,
 .text-shadow-drop-desktop {
   text-shadow: -2px 2px 0px var(--accent);
 }
-
+.text-align-end-desktop{text-align:end;}
 .border-width1{border-width:0.2rem;}
 /* DISPLAY */
 .display-block-desktop{display:block}
