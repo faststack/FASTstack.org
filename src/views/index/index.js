@@ -22,7 +22,7 @@ module.exports = function template() {
     getStartedLink,
     message
   } = parsed
-  let body = `
+  let body = /*html*/`
   <header
     class="
       padding-top2
@@ -159,35 +159,7 @@ module.exports = function template() {
         >
           ${whatIsFASTstack}
         </div>
-
-        <div
-          class="
-            text-align-center
-            text-align-end-desktop
-          "
-        >
-          <a
-            class="
-              display-inline-block
-              padding-top0
-              padding-left2
-              padding-bottom0
-              padding-right2
-              color-light
-              color-white-hover
-              border-radius-pill
-              background-image-linear-gradient1
-              text-decoration-none
-              depress
-              font-weight-bold
-            "
-            href="${getStartedLink}"
-          >
-            ${getStarted}
-          </a>
-        </div>
       </div>
-
     </div>
   </section>
 
@@ -202,6 +174,7 @@ module.exports = function template() {
       class="
         max-width
         margin-auto
+        padding-bottom2
       "
     >
       <div
@@ -415,6 +388,31 @@ module.exports = function template() {
           ${testability}
         </div>
       </div>
+    </div>
+    <div
+      class="
+        text-align-center
+      "
+    >
+      <a
+        class="
+          display-inline-block
+          padding-top0
+          padding-left2
+          padding-bottom0
+          padding-right2
+          color-light
+          color-white-hover
+          border-radius-pill
+          background-image-linear-gradient1
+          text-decoration-none
+          depress
+          font-weight-bold
+        "
+        href="${getStartedLink}"
+      >
+        ${getStarted}
+      </a>
     </div>
 
   </section>

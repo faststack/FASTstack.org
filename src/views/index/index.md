@@ -60,7 +60,7 @@ Rapidly prototype and validate in a local/offline development environment, and e
 Start building with the FASTstack
 
 @@getStarted
-Build your first FASTstack app</a>
+Get started building a FASTstack app
 
 @@getStartedLink
 /get-started
