@@ -1,5 +1,5 @@
 @@title
-FASTstack | Functions, APIs, Storage, Tests
+FASTstack | Functions, APIs, Storage, Testability
 
 
 @@description
@@ -10,7 +10,7 @@ The next generation of sites, apps, and APIs are being built by unlocking an ent
 **Unlock the superpowers of the open web.**
 
 @@md subhead
-Build secure, fast, sophisticated sites and applications with<br/> **Functions**, **APIs**, **Storage**, and **Tests**.
+Build secure, fast, sophisticated sites and applications with<br/> **Functions**, **APIs**, **Storage**, and **Testability**.
 
 
 @@intro
@@ -50,7 +50,7 @@ Durably persist and instantly access dynamic data with in-network or distributed
 
 
 @@testabilityHeader
-Tests
+Testability
 
 @@testability
 Rapidly prototype and validate in a local/offline development environment, and extend into automated test suites, enabling continuous integration. Green builds deploy to reproducible, deterministic environments via Infrastructure as Code.
