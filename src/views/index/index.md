@@ -66,4 +66,4 @@ Get started building a FASTstack app
 /get-started
 
 @@md message
-Help build <a class="link" href="https://github.com/faststack/FASTstack.org">FASTstack.org</a>
+Help build <a class="link" href="https://github.com/faststack/FASTstack.org">FASTstack.org</a> on Github
