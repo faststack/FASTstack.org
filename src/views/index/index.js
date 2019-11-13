@@ -399,7 +399,8 @@ module.exports = function template() {
         </div>
       </div>
     </div>
-    <div
+
+    <!--<div
       class="
         text-align-center
       "
@@ -425,7 +426,7 @@ module.exports = function template() {
       >
         ${getStarted}
       </a>
-    </div>
+    </div>-->
 
   </section>
   <footer
