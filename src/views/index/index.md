@@ -39,7 +39,7 @@ Augment client-side programming with secure, trusted logic running in isolated, 
 APIs
 
 @@APIs
-Requests + responses are marshaled via reusable endpoints that deliver pre-rendered or dynamically generated markup, WebSockets, static assets, and JSON via REST or GraphQL. They may also interface with third-party servies.
+Requests + responses are marshaled via reusable endpoints that deliver pre-rendered or dynamically generated markup, WebSockets, static assets, and JSON via REST or GraphQL. They may also interface with third-party servers.
 
 
 @@storageHeader

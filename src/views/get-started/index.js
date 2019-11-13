@@ -51,10 +51,8 @@ module.exports = function template () {
           href="/"
           class="
             color-white
-            color-white:hover
-            color-white:visited
+            text-decoration-none
           "
-          style="text-decoration: none;"
         >
           FASTstack
         </a>

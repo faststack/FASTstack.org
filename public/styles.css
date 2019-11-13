@@ -67,7 +67,7 @@ body,
   clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0 100%);
 }
 .text-shadow-drop {
-  text-shadow: -1px 1px 0px var(--accent);
+  text-shadow: -1px 1px 0px var(--dark), -2px 2px 0px var(--accent);
 }
 /* GRADIENT */
 .background-image-linear-gradient0 {
@@ -400,7 +400,7 @@ code,
 }
 
 .text-shadow-drop-desktop {
-  text-shadow: -2px 2px 0px var(--accent);
+  text-shadow: -2px 2px 0px var(--dark), -3px 3px 0px var(--accent);
 }
 .text-align-end-desktop{text-align:end;}
 .border-width1{border-width:0.2rem;}

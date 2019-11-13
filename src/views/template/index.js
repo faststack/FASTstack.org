@@ -14,6 +14,7 @@ module.exports = function template (props) {
     <meta name="description" content="${description}">
     <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" rel="icon" type="image/x-icon">
     <link rel="stylesheet" href="/_static/styles.css">
+    <meta name="theme-color" content="#FF092C">
   </head>
   <body>
     ${body}
