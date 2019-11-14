@@ -73,7 +73,7 @@ body,
 }
 .drop:first-child:first-letter,
 .text-shadow-drop-cap1 {
-  text-shadow: -1px 1px 0px var(--light), -1px 2px 0px var(--accent);
+  text-shadow: 0px 1px 0px var(--light), 0px 1.5px 0px var(--accent);
 }
 .text-shadow-drop-cap {
   text-shadow: -1px 1px 0px var(--light), -2px 3px 0px var(--accent);
