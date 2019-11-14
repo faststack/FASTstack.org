@@ -54,7 +54,6 @@ module.exports = function template() {
           font-style-italic
           text-shadow-drop
           text-shadow-drop-desktop
-          sans-serif
         "
       >
         <a
@@ -72,8 +71,6 @@ module.exports = function template() {
           margin-bottom-1
           font-size1
           font-size2-desktop
-          text-shadow-drop
-          sans-serif
         "
       >
         ${hero}

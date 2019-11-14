@@ -69,7 +69,7 @@ body,
   clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0 100%);
 }
 .text-shadow-drop {
-  text-shadow: -1px 1px 0px var(--dark), -2px 2px 0px var(--accent);
+  text-shadow: -1px 1px 0px var(--accent), -2px 3px 0px var(--dark);
 }
 .drop:first-child:first-letter,
 .text-shadow-drop-cap1 {
@@ -412,7 +412,7 @@ code,
 }
 
 .text-shadow-drop-desktop {
-  text-shadow: -2px 2px 0px var(--dark), -3px 3px 0px var(--accent);
+  text-shadow: -2px 2px 0px var(--accent), -3px 4px 0px var(--dark);
 }
 .text-align-end-desktop{text-align:end;}
 .border-width1{border-width:0.2rem;}
