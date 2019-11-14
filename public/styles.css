@@ -26,7 +26,9 @@ input {font-family: inherit;}
   --strike: #FFFFFF;
   --contrast: #B3001B;
 }
-
+.drop:first-child:first-letter {}
+.drop:first-child:first-letter,
+.float-left {float: left;}
 html {
   font-size: 18px;
 }
@@ -69,6 +71,13 @@ body,
 .text-shadow-drop {
   text-shadow: -1px 1px 0px var(--dark), -2px 2px 0px var(--accent);
 }
+.drop:first-child:first-letter,
+.text-shadow-drop-cap1 {
+  text-shadow: -1px 1px 0px var(--light), -1px 2px 0px var(--accent);
+}
+.text-shadow-drop-cap {
+  text-shadow: -1px 1px 0px var(--light), -2px 3px 0px var(--accent);
+}
 /* GRADIENT */
 .background-image-linear-gradient0 {
   background-image: linear-gradient(0.4turn,#3800FF,#C10FA5,#FF092C);
@@ -102,6 +111,7 @@ code,
 .font-size5{font-size:4.209rem;}
 .font-size4{font-size:3.157rem;}
 .font-size3{font-size:2.369rem;}
+.drop:first-child:first-letter,
 .font-size2{font-size:1.777rem;}
 .font-size1{font-size:1.333rem;}
 .font-size0{font-size:1rem;}
@@ -131,6 +141,7 @@ code,
 .font-weight-900,
 .font-weight-black{font-weight:900}
 /* STYLE */
+.drop:first-child:first-letter,
 .font-style-italic{font-style:italic}
 .text-align-start {
   text-align: start;
@@ -319,6 +330,7 @@ code,
 .padding-5{padding:0.238rem;}
 .padding-top-5{padding-top:0.238rem;}
 .padding-right-5{padding-right:0.238rem;}
+.drop:first-child:first-letter,
 .padding-bottom-5{padding-bottom:0.238rem;}
 .padding-left-5{padding-left:0.238rem;}
 .padding-6{padding:0.178rem;}

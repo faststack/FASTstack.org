@@ -107,14 +107,15 @@ module.exports = function template() {
         margin-auto
       "
     >
-      <div
+      <p
         class="
           margin-bottom3
           font-weight-light
+          drop
         "
       >
         ${intro}
-      </div>
+      </p>
     </div>
   </section>
 
@@ -208,6 +209,7 @@ module.exports = function template() {
               display-none
               display-block-desktop
               mw-letter
+              text-shadow-drop-cap
             "
           >
             F
@@ -261,6 +263,7 @@ module.exports = function template() {
               font-style-italic
               color-black
               mw-letter
+              text-shadow-drop-cap
             "
           >
             A
@@ -314,6 +317,7 @@ module.exports = function template() {
               font-style-italic
               color-black
               mw-letter
+              text-shadow-drop-cap
             "
           >
             S
@@ -367,6 +371,7 @@ module.exports = function template() {
               font-style-italic
               color-black
               mw-letter
+              text-shadow-drop-cap
             "
           >
             T
