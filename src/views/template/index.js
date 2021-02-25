@@ -1,7 +1,7 @@
 module.exports = function template (props) {
   let {
     title='FASTstack',
-    // description='FASTstack.org',
+    description='FASTstack.org',
     body=''
   } = props
   return /*html*/`
@@ -11,6 +11,7 @@ module.exports = function template (props) {
   <!-- COMMON TAGS -->
   <meta charset=utf-8>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="${description}">
   <title>${title}</title>
   <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" rel="icon" type="image/x-icon">
 
