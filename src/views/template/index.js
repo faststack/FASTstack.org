@@ -17,23 +17,23 @@ module.exports = function template (props) {
 
   <!-- Search Engine -->
   <meta name="description" content="Build secure, fast, sophisticated sites and applications with Functions, APIs, Storage, and Testability.">
-  <meta name="image" content="https://faststack.org/meta.png">
+  <meta name="image" content="https://faststack.org/_static/meta.png">
   <!-- Schema.org for Google -->
   <meta itemprop="name" content="The FASTstack">
   <meta itemprop="description" content="Build secure, fast, sophisticated sites and applications with Functions, APIs, Storage, and Testability.">
-  <meta itemprop="image" content="https://faststack.org/meta.png">
+  <meta itemprop="image" content="https://faststack.org/_static/meta.png">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="The FASTstack">
   <meta name="twitter:description" content="Build secure, fast, sophisticated sites and applications with Functions, APIs, Storage, and Testability.">
   <meta name="twitter:site" content="@begin">
-  <meta name="twitter:image:src" content="https://faststack.org/meta.png">
+  <meta name="twitter:image:src" content="https://faststack.org/_static/meta.png">
 
   <!-- Open Graph general (Facebook, Pinterest & Google+) -->
   <meta name="og:title" content="The FASTstack">
   <meta name="og:description" content="Build secure, fast, sophisticated sites and applications with Functions, APIs, Storage, and Testability.">
-  <meta name="og:image" content="https://faststack.org/meta.png">
+  <meta name="og:image" content="https://faststack.org/_static/meta.png">
   <meta name="og:url" content="https://faststack.org/">
   <meta name="og:site_name" content="The FASTstack">
   <meta name="og:type" content="website">
