@@ -1,7 +1,7 @@
 module.exports = function template (props) {
   let {
     title='FASTstack',
-    description='FASTstack.org',
+    // description='FASTstack.org',
     body=''
   } = props
   return /*html*/`
