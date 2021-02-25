@@ -38,7 +38,7 @@ module.exports = function template (props) {
   <meta name="og:site_name" content="The FASTstack">
   <meta name="og:type" content="website">
 
-  <---Styles--->
+  <!---Styles--->
   <link rel="stylesheet" href="/_static/styles.css">
   <meta name="theme-color" content="#FF092C">
 </head>
