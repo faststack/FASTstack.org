@@ -24,7 +24,7 @@ module.exports = function template (props) {
   <meta itemprop="image" content="https://faststack.org/_static/meta.png">
 
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="The FASTstack">
   <meta name="twitter:description" content="Build secure, fast, sophisticated sites and applications with Functions, APIs, Storage, and Testability.">
   <meta name="twitter:site" content="@begin">
